@@ -42,8 +42,13 @@ const nextConfig = {
         hostname: 'images.unsplash.com',
         pathname: '/**',
       },
+      // ⬇️ TAMBAHAN: Domain sendiri untuk proxy endpoint
+      {
+        protocol: 'https',
+        hostname: 'cdn-nu.vercel.app', // Ganti dengan domain Vercel Anda
+        pathname: '/api/proxy/**',
+      },
     ],
-    // Unlimited optimization (default limit 1000 di free tier)
     deviceSizes: [300],
     imageSizes: [300, 350, 400, 450, 500, 550, 600],
     formats: ['image/webp', 'image/avif'],
