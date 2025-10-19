@@ -9,17 +9,7 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'delivery.shngm.id',
-        pathname: '/**',
-      },
-      {
-        protocol: 'https',
         hostname: 'cdn3.imgkomik.xyz',
-        pathname: '/**',
-      },
-      {
-        protocol: 'https',
-        hostname: '08.shinigami.asia',
         pathname: '/**',
       },
       {
@@ -41,12 +31,6 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'images.unsplash.com',
         pathname: '/**',
-      },
-      // ⬇️ TAMBAHAN: Domain sendiri untuk proxy endpoint
-      {
-        protocol: 'https',
-        hostname: 'cdn-nu.vercel.app', // Ganti dengan domain Vercel Anda
-        pathname: '/api/proxy/**',
       },
     ],
     deviceSizes: [300],
