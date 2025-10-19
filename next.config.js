@@ -14,6 +14,16 @@ const nextConfig = {
       },
       {
         protocol: 'https',
+        hostname: 'cdn3.imgkomik.xyz',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: '08.shinigami.asia',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
         hostname: 'kiryuu02.com',
         pathname: '/**',
       },
@@ -34,8 +44,8 @@ const nextConfig = {
       },
     ],
     // Unlimited optimization (default limit 1000 di free tier)
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
-    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    deviceSizes: [300],
+    imageSizes: [300, 350, 400, 450, 500, 550, 600],
     formats: ['image/webp', 'image/avif'],
   },
 }
